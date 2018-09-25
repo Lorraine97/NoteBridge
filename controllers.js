@@ -1,24 +1,21 @@
 angular.module('app.controllers', [])
   
-.controller('homeCtrl', ['$scope', '$stateParams', // The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
-// You can include any angular dependencies as parameters for this function
-// TIP: Access Route Parameters for your page via $stateParams.parameterName
+.controller('homeCtrl', ['$scope', '$stateParams', 
+// The following is the constructor function for this page's controller.
 function ($scope, $stateParams) {
 
 
 }])
    
-.controller('classesCtrl', ['$scope', '$stateParams', // The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
-// You can include any angular dependencies as parameters for this function
-// TIP: Access Route Parameters for your page via $stateParams.parameterName
+.controller('classesCtrl', ['$scope', '$stateParams', 
+// The following is the constructor function for this page's controller.
 function ($scope, $stateParams) {
 
 
 }])
    
-.controller('editorCtrl', ['$scope', '$stateParams', '$firebaseArray', '$ionicUser', // The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
-// You can include any angular dependencies as parameters for this function
-// TIP: Access Route Parameters for your page via $stateParams.parameterName
+.controller('editorCtrl', ['$scope', '$stateParams', '$firebaseArray', '$ionicUser', 
+// The following is the constructor function for this page's controller.
 function ($scope, $stateParams, $firebaseArray, $ionicUser) {
     
     $scope.data = {
@@ -42,9 +39,8 @@ function ($scope, $stateParams, $firebaseArray, $ionicUser) {
 
 }])
    
-.controller('menuCtrl', ['$scope', '$stateParams', '$ionicUser', '$ionicAuth', '$state', // The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
-// You can include any angular dependencies as parameters for this function
-// TIP: Access Route Parameters for your page via $stateParams.parameterName
+.controller('menuCtrl', ['$scope', '$stateParams', '$ionicUser', '$ionicAuth', '$state', 
+// The following is the constructor function for this page's controller.
 function ($scope, $stateParams, $ionicUser, $ionicAuth, $state) {
     
     $scope.userData = $ionicUser.details;
@@ -56,9 +52,8 @@ function ($scope, $stateParams, $ionicUser, $ionicAuth, $state) {
 
 }])
    
-.controller('loginCtrl', ['$scope', '$stateParams', '$ionicUser', '$ionicAuth', '$state', // The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
-// You can include any angular dependencies as parameters for this function
-// TIP: Access Route Parameters for your page via $stateParams.parameterName
+.controller('loginCtrl', ['$scope', '$stateParams', '$ionicUser', '$ionicAuth', '$state', 
+// The following is the constructor function for this page's controller.
 function ($scope, $stateParams, $ionicUser, $ionicAuth, $state) {
 
     $scope.data = {
@@ -85,9 +80,8 @@ function ($scope, $stateParams, $ionicUser, $ionicAuth, $state) {
 
 }])
    
-.controller('signupCtrl', ['$scope', '$stateParams', '$ionicAuth', '$ionicUser', '$state', // The following is the constructor function for this page's controller. See https://docs.angularjs.org/guide/controller
-// You can include any angular dependencies as parameters for this function
-// TIP: Access Route Parameters for your page via $stateParams.parameterName
+.controller('signupCtrl', ['$scope', '$stateParams', '$ionicAuth', '$ionicUser', '$state', 
+// The following is the constructor function for this page's controller.
 function ($scope, $stateParams, $ionicAuth, $ionicUser, $state) {
     
     $scope.data = {
